@@ -1,0 +1,10 @@
+server:
+  port: 8090
+  servlet:
+    context-path: /pdfcreate
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.51.237:13306/infectiousdiseasewarn?characterEncoding=utf-8
+    username: root
+    password: mc-data-dev-mysql
